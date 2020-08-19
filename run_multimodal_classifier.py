@@ -550,9 +550,9 @@ def main():
     print("*"*50)
 
     if args.task_name == "twitter":        # this refers to twitter-2017 dataset
-        args.path_image = "../pytorch-pretrained-BERT/twitter_subimages/"
+        args.path_image = "../IJCAI/twitter17_images/"
     elif args.task_name == "twitter2015":  # this refers to twitter-2015 dataset
-        args.path_image = "../pytorch-pretrained-BERT/twitter15_images/"
+        args.path_image = "../IJCAI/twitter15_images/"
     else:
         print("The task name is not right!")
 
