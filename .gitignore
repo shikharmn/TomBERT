@@ -1,1 +1,4 @@
 ./IJCAI2019_data/*
+./output/**/pytorch_encoder.bin
+./output/**/pytorch_model.bin
+./resnet/resnet152.pth
