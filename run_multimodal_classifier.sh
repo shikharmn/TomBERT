@@ -2,10 +2,10 @@
 for i in 'twitter' 'twitter2015' # 'twitter'
 do
     echo ${i}
-    for k in 'MBert' 'TomBertNoPooling' 'MBertNoPooling' 'ResBert' # 'TomBert'
+    for k in 'MBert' 'TomBertNoPooling' 'MBertNoPooling' 'ResBert' 'TomBert'
     do
         echo ${k}
-        for j in 'first' # 'first' 'cls' 'both'
+        for j in 'cls' 'both' # 'first'
         do
             echo ${j}
             PYTHONIOENCODING=utf-8 CUDA_VISIBLE_DEVICES=0 python run_multimodal_classifier.py --data_dir \
